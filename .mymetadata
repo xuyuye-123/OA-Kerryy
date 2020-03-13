@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="OA-Kerry"
+  id="myeclipse.1583756070794"
+  context-root="/OA-Kerry"
+  j2ee-spec="6.0"
+  archive="OA-Kerry.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

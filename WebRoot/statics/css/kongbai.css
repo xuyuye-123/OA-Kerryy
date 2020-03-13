@@ -1,0 +1,37 @@
+.border-i{
+    width:180px;
+    height:180px;
+    border-radius:90px;
+    background:green;
+ overflow:hidden;
+  position:relative;
+
+}
+.border-i i{
+    width:0;
+    height:0;
+    border:90px transparent dotted;
+    position:absolute;
+    background-color: #02BAAD;
+
+}
+.border-i .i1{
+    right:-90px;
+    top:-90px;
+    background-color: #81B2EA;
+
+}
+.border-i .i2{
+    right:-90px;
+    bottom:-90px;
+}
+.border-i .i3{
+    left:-90px;
+    bottom:-90px;
+    background-color: #81B2EA;
+}
+.border-i .i4{
+    left:-90px;
+    top:-90px;
+    background-color: #02BAAD;
+}
