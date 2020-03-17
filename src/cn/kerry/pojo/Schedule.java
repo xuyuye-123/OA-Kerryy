@@ -6,8 +6,6 @@ import java.util.Date;
 */
 
 public class Schedule {
-
-	
 	private  int id;//日程id
 	private String title;//日程标题
 	private  String content;//内容

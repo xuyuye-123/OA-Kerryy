@@ -53,105 +53,18 @@
 			      </tr> 
 			    </thead>
 			    <tbody>
+			    <c:forEach items="${Commissionlist}" var="list">
 			      <tr>
 			        <td><input type="checkbox" name="" lay-skin="primary"></td>
-			        <td>2019001</td>
-			        <td>杨洋</td>
-			        <td>人事部</td>
-			        <td>部门领导</td>
+			         <td>${list.user_accout}</td>
+			        <td>${list.user_name }</td>
+			       
+			        <td>${list.department_name }</td>
+			        <td>${list.post_name }</td>
 			         <td><a href="">授权代办</a></td>
 			      </tr>
-			      <tr>
-			        <td><input type="checkbox" name="" lay-skin="primary"></td>
-			        <td>2019002</td>
-			        <td>徐煜烨</td>
-			        <td>财政部</td>
-			        <td>普通员工</td>
-			         <td><a href="">授权代办</a></td>
-			      </tr>
-			  
-			      <tr>
-			        <td><input type="checkbox" name="" lay-skin="primary"></td>
-			        <td>2019003</td>
-			        <td>冯欢龙</td>
-			        <td>行政部</td>
-			        <td>部门领导</td>
-			         <td><a href="">授权代办</a></td>
-			      </tr>
+			      </c:forEach>
 			     
-			      <tr>
-			        <td><input type="checkbox" name="" lay-skin="primary"></td>
-			        <td>2019004</td>
-			        <td>张雨蒙</td>
-			        <td>市场部</td>
-			        <td>部门领导</td>
-			         <td><a href="">授权代办</a></td>
-			      </tr>
-			    
-			      <tr>
-			        <td><input type="checkbox" name="" lay-skin="primary"></td>
-			        <td>2019005</td>
-			        <td>汲金宇</td>
-			        <td>财务部</td>
-			        <td>部门领导</td>
-			         <td><a href="">授权代办</a></td>
-			      </tr>
-			        <tr>
-			        <td><input type="checkbox" name="" lay-skin="primary"></td>
-			        <td>2019006</td>
-			        <td>戚海俊</td>
-			        <td>财务部</td>
-			        <td>普通员工</td>
-			         <td><a href="">授权代办</a></td>
-			      </tr>
-			        <tr>
-			        <td><input type="checkbox" name="" lay-skin="primary"></td>
-			        <td>2019007</td>
-			        <td>徐哲</td>
-			        <td>人事部</td>
-			        <td>普通员工</td>
-			         <td><a href="">授权代办</a></td>
-			      </tr>
-			        <tr>
-			        <td><input type="checkbox" name="" lay-skin="primary"></td>
-			        <td>2019008</td>
-			        <td>王继博</td>
-			        <td>市场部</td>
-			        <td>普通员工</td>
-			         <td><a href="">授权代办</a></td>
-			      </tr>
-			        <tr>
-			        <td><input type="checkbox" name="" lay-skin="primary"></td>
-			        <td>2019009</td>
-			        <td>汲金宇</td>
-			        <td>财务部</td>
-			        <td>部门领导</td>
-			         <td><a href="">授权代办</a></td>
-			      </tr>
-			        <tr>
-			        <td><input type="checkbox" name="" lay-skin="primary"></td>
-			        <td>2019010</td>
-			        <td>汲金宇</td>
-			        <td>财务部</td>
-			        <td>部门领导</td>
-			         <td><a href="">授权代办</a></td>
-			      </tr>
-			        <tr>
-			        <td><input type="checkbox" name="" lay-skin="primary"></td>
-			        <td>2019011</td>
-			        <td>汲金宇</td>
-			        <td>财务部</td>
-			        <td>部门领导</td>
-			         <td><a href="">授权代办</a></td>
-			      </tr>
-			        <tr>
-			        <td><input type="checkbox" name="" lay-skin="pr imary"></td>
-			        <td>2019012</td>
-			        <td>汲金宇</td>
-			        <td>财务部</td>
-			        <td>部门领导</td>
-			         <td><a href="">授权代办</a></td>
-			      </tr>
 			    </tbody>
 			  </table>
 			</div>
