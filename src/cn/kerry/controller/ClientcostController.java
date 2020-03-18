@@ -23,5 +23,4 @@ public class ClientcostController {
 		model.addAttribute("clientcostlist",clientcostlist);
 		return "clientinfo1";
 	}
-
 }

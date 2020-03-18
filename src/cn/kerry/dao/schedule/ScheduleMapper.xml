@@ -8,6 +8,9 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	 <select id="GetCommissionList" resultType="Commission">
 SELECT d.name department_name,p.name post_name,u.name user_name,u.accout user_accout FROM kerry_department d,kerry_post p,kerry_user u WHERE u.department_id=d.id AND u.post_id=p.id
 	 	</select>
+	 	<select id="GetCommissionListBydepartment_name" resultType="Commission" parameterType="int">
+	 	SELECT d.name department_name,p.name post_name,u.name user_name,u.accout user_accout FROM kerry_department d,kerry_post p,kerry_user u WHERE u.department_id=d.id AND u.post_id=p.id AND d.id=#{id}
+	 	</select>
 </mapper>
 
 

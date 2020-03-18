@@ -5,6 +5,7 @@ private String department_name;
 private String post_name;
 private String user_name;
 private String user_accout;
+
 public String getUser_accout() {
 	return user_accout;
 }

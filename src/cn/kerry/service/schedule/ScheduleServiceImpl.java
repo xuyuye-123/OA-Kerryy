@@ -18,5 +18,16 @@ public class ScheduleServiceImpl implements ScheduleService {
 		// TODO Auto-generated method stub
 		return scheduleMapper.GetCommissionList();
 	}
+	@Override
+	public List<Commission> GetCommissionListBydepartment_name(
+			int id) {
+		// TODO Auto-generated method stub
+		List<Commission> list=scheduleMapper.GetCommissionListBydepartment_name(id);
+		System.out.println(id);
+		for (Commission commission : list) {
+			System.out.println(commission.getDepartment_name());
+		}
+		return list;
+	}
 
 }

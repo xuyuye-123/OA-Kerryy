@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" contentType="text/html;charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@include file="/WEB-INF/jsp/common/head.jsp"%>
     <div class="layui-body">
@@ -21,16 +21,22 @@
 			  <legend>代办设置</legend>
 			</fieldset>
 			 <div class="layui-form-item">
+			 <form action="${pageContext.request.contextPath }/Schedule/list.html" class="layui-form">
 			    <label class="layui-form-label">请选择部门</label>
 			    <div class="layui-input-inline">
 			       <select name="quiz1">
 			        <option value="0" selected="">请选择部门</option>
-			        <option value="1" >人事部</option>
-			        <option value="2">财务部</option>
-			        <option value="3">行政部</option>
-			        <option value="4">市场部</option>
+			        <option value="1" >研发部</option>
+			        <option value="2">策划部</option>
+			        <option value="3">人事部</option>
+			        <option value="4">销售部</option>
+			        <option value="5">行政部</option>
+			        <option value="6">财务部</option>
 			      </select>
-			    </div>
+			      </div>
+			        <input type="submit" class="layui-btn" value="查询">
+			      </form>
+			    
 			  </div>
 			  
 			<div class="layui-form">
